@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Tarique Ali</title>
+  <meta name="description" content="Tarique Ali — BS Information Technology student at University of Sindh, Jamshoro. Web developer working towards full stack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@400;500;600&family=Noto+Nastaliq+Urdu&family=Noto+Naskh+Arabic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ajrak"></div>
+  <header class="site-header">
+    <nav class="wrap nav">
+      <a href="index.html" class="logo">Tarique<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn theme-btn" aria-label="Switch theme">☾</button>
+        <button class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="wrap">
+
+    <p class="kicker">Projects</p>
+    <h1 class="page-title">Things I've built</h1>
+    <p class="page-sub">Most of these started as practice. Each one taught me something I didn't know before.</p>
+
+    <div class="filters">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="front">HTML &amp; CSS</button>
+      <button data-filter="js">JavaScript</button>
+      <button data-filter="full">Full stack</button>
+    </div>
+
+    <section class="project-grid">
+      <article class="card project reveal" data-type="front">
+        <div class="thumb t1">This Portfolio</div>
+        <span class="status">Finished</span>
+        <h3>This Portfolio</h3>
+        <p>The site you're looking at. Six pages, hand-written HTML, CSS and JavaScript, light/dark mode, and a working contact form that opens your email app.</p>
+        <div><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+        <div class="links"><a href="#">Live demo</a><a href="#">Code on GitHub</a></div>
+      </article>
+      <article class="card project reveal" data-type="js">
+        <div class="thumb t2">To-Do List App</div>
+        <span class="status">Finished</span>
+        <h3>To-Do List App</h3>
+        <p>Add, tick off and delete tasks. Tasks stay saved in the browser even after you close the tab, so nothing gets lost.</p>
+        <div><span class="tag">JavaScript</span><span class="tag">LocalStorage</span></div>
+        <div class="links"><a href="#">Live demo</a><a href="#">Code on GitHub</a></div>
+      </article>
+      <article class="card project reveal" data-type="js">
+        <div class="thumb t3">Weather App</div>
+        <span class="status">Finished</span>
+        <h3>Weather App</h3>
+        <p>Type any city and it shows the current temperature and conditions by fetching live data from a weather API.</p>
+        <div><span class="tag">JavaScript</span><span class="tag">API</span><span class="tag">CSS</span></div>
+        <div class="links"><a href="#">Live demo</a><a href="#">Code on GitHub</a></div>
+      </article>
+      <article class="card project reveal" data-type="front">
+        <div class="thumb t4">Restaurant Landing Page</div>
+        <span class="status">Finished</span>
+        <h3>Restaurant Landing Page</h3>
+        <p>A responsive one-page site for a local restaurant — menu, gallery and location section. Mainly practice for layouts.</p>
+        <div><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Flexbox</span></div>
+        <div class="links"><a href="#">Live demo</a><a href="#">Code on GitHub</a></div>
+      </article>
+      <article class="card project reveal" data-type="full">
+        <div class="thumb t5">Student Record System</div>
+        <span class="status">In progress</span>
+        <h3>Student Record System</h3>
+        <p>A small system for adding, searching and updating student records with a database behind it. My first step into the back end.</p>
+        <div><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">Bootstrap</span></div>
+        <div class="links"><a href="#">Live demo</a><a href="#">Code on GitHub</a></div>
+      </article>
+      <article class="card project reveal" data-type="js">
+        <div class="thumb t6">Quiz App</div>
+        <span class="status">Finished</span>
+        <h3>Quiz App</h3>
+        <p>A timed multiple-choice quiz that keeps score and shows results at the end. Questions are kept in a JavaScript array.</p>
+        <div><span class="tag">JavaScript</span><span class="tag">DOM</span></div>
+        <div class="links"><a href="#">Live demo</a><a href="#">Code on GitHub</a></div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span class="year">2026</span> Tarique Ali Khoso · Jamshoro, Sindh</span>
+      <span>Built by hand with HTML, CSS &amp; JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
